@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Raj</title>
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="min-h-screen p-4 md:p-10 accent-primary">
+
+    <div id="app" class="max-w-5xl mx-auto">
+        
+        <!-- Main Header Card -->
+        <header class="profile-card bg-white p-8 md:p-12 rounded-2xl mb-10">
+            <div class="flex flex-col md:flex-row items-start md:items-center">
+                <!-- Profile Placeholder Image (Using a geometric shape for a modern touch) -->
+                <div class="w-28 h-28 md:w-36 md:h-36 bg-indigo-50 rounded-full flex items-center justify-center mb-6 md:mb-0 md:mr-8 flex-shrink-0 border-4 border-indigo-400/50 shadow-lg">
+                    <i data-lucide="sparkles" class="w-14 h-14 text-indigo-500"></i>
+                </div>
+                <div>
+                    <h1 class="text-4xl md:text-6xl font-black text-gray-900 mb-1">Amit Raj</h1>
+                    <p class="text-lg text-gray-600 font-light mb-3">
+                        Harvard Aspire Cohort 3 | IITM BS Student | Co-Founder & CEO @Unparalleled Scholar
+                    </p>
+                    <p class="text-base text-gray-700 leading-snug max-w-2xl">
+                        A Tech & Impact-Driven Learner and Future Innovator, focused on building power through knowledge and action. Currently based in Bihar, India.
+                    </p>
+                    <div class="mt-6 flex flex-wrap gap-x-6 gap-y-3">
+                        <a href="mailto:amitrajaj0827@gmail.com" class="text-gray-600 hover:text-indigo-500 transition duration-150 flex items-center text-sm font-medium" aria-label="Email">
+                            <i data-lucide="mail" class="w-4 h-4 mr-2"></i> amitrajaj0827@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/amitraj27" target="_blank" class="text-gray-600 hover:text-indigo-500 transition duration-150 flex items-center text-sm font-medium" aria-label="LinkedIn Profile">
+                            <i data-lucide="linkedin" class="w-4 h-4 mr-2"></i> LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+     
+        <main class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            
+            <!-- Left Column (Experience & Education) -->
+            <div class="lg:col-span-2 space-y-10">
+
+                <!-- Experience Section -->
+                <section class="profile-card bg-white p-8 rounded-2xl">
+                    <h2 class="text-3xl font-bold text-gray-800 border-b border-gray-200 pb-3 mb-6 flex items-center">
+                        <i data-lucide="briefcase" class="w-7 h-7 mr-3 accent-color"></i> Experience
+                    </h2>
+                    <div class="space-y-8">
+                        <!-- Job 1 -->
+                        <div class="relative pl-6 border-l border-gray-300">
+                            <div class="absolute w-3 h-3 timeline-dot rounded-full -left-[6.5px] top-0 shadow-md"></div>
+                            <h3 class="text-xl font-bold text-gray-900">Co-Founder & CEO</h3>
+                            <p class="text-lg accent-color font-semibold">Unparalleled Scholar</p>
+                            <p class="text-sm text-gray-500 mb-2">January 2025 - Present (10 months) | India</p>
+                            <p class="text-gray-700 leading-relaxed">
+                                Spearheading the strategic direction and daily operations of Unparalleled Scholar, focusing on delivering impactful knowledge and technological solutions.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="profile-card bg-white p-8 rounded-2xl">
+                    <h2 class="text-3xl font-bold text-gray-800 border-b border-gray-200 pb-3 mb-6 flex items-center">
+                        <i data-lucide="graduation-cap" class="w-7 h-7 mr-3 accent-color"></i> Education
+                    </h2>
+                    <div class="space-y-8">
+                        <!-- Education 1: Patna Science College -->
+                        <div class="relative pl-6 border-l border-gray-300">
+                            <div class="absolute w-3 h-3 timeline-dot rounded-full -left-[6.5px] top-0 shadow-md"></div>
+                            <h3 class="text-xl font-bold text-gray-900">Patna Science College, Patna</h3>
+                            <p class="text-lg accent-color font-semibold">Bachelor's degree, Mathematics and Statistics</p>
+                            <p class="text-sm text-gray-500">June 2025 - June 2029</p>
+                        </div>
+                        <!-- Education 2: IIT Madras -->
+                        <div class="relative pl-6 border-l border-gray-300">
+                            <div class="absolute w-3 h-3 timeline-dot rounded-full -left-[6.5px] top-0 shadow-md"></div>
+                            <h3 class="text-xl font-bold text-gray-900">Indian Institute of Technology, Madras</h3>
+                            <p class="text-lg accent-color font-semibold">Bachelor of Science (BS)</p>
+                            <p class="text-sm text-gray-500">2024</p>
+                        </div>
+                        <!-- Education 3: Aspire Institute -->
+                        <div class="relative pl-6 border-l border-gray-300">
+                            <div class="absolute w-3 h-3 timeline-dot rounded-full -left-[6.5px] top-0 shadow-md"></div>
+                            <h3 class="text-xl font-bold text-gray-900">Aspire Institute</h3>
+                            <p class="text-lg accent-color font-semibold">Harvard Aspire Cohort 3</p>
+                            <p class="text-sm text-gray-500">Global leadership and impact program.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Right Column (Skills, Certifications, Contact) -->
+            <div class="lg:col-span-1 space-y-10">
+
+                <!-- Top Skills Section -->
+                <section class="profile-card bg-white p-8 rounded-2xl">
+                    <h2 class="text-3xl font-bold text-gray-800 border-b border-gray-200 pb-3 mb-6 flex items-center">
+                        <i data-lucide="puzzle" class="w-7 h-7 mr-3 accent-color"></i> Top Skills
+                    </h2>
+                    <div class="flex flex-wrap gap-3" id="skill-list">
+                        <!-- Skills styled as sleek badges -->
+                        <span class="skill-badge px-3 py-1.5 rounded-lg text-sm font-semibold shadow-sm">
+                            Teaching
+                        </span>
+                        <span class="skill-badge px-3 py-1.5 rounded-lg text-sm font-semibold shadow-sm">
+                            Python (Programming Language)
+                        </span>
+                        <span class="skill-badge px-3 py-1.5 rounded-lg text-sm font-semibold shadow-sm">
+                            Graphic Design
+                        </span>
+                    </div>
+                </section>
+
+                <!-- Certifications Section -->
+                <section class="profile-card bg-white p-8 rounded-2xl">
+                    <h2 class="text-3xl font-bold text-gray-800 border-b border-gray-200 pb-3 mb-6 flex items-center">
+                        <i data-lucide="award" class="w-7 h-7 mr-3 accent-color"></i> Certifications
+                    </h2>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex flex-col items-start text-base hover:text-indigo-600 transition duration-150">
+                            <div class="flex items-center">
+                                <i data-lucide="check-circle" class="w-5 h-5 mr-2 text-indigo-400 flex-shrink-0"></i>
+                                <span class="font-medium text-gray-900">Python Bootcamp</span>
+                            </div>
+                        </li>
+                        <li class="flex flex-col items-start text-base hover:text-indigo-600 transition duration-150">
+                            <div class="flex items-center">
+                                <i data-lucide="check-circle" class="w-5 h-5 mr-2 text-indigo-400 flex-shrink-0"></i>
+                                <span class="font-medium text-gray-900">Career Essentials in Project Management</span>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-7 italic">Issued by Microsoft and LinkedIn</span>
+                        </li>
+                        <li class="flex flex-col items-start text-base hover:text-indigo-600 transition duration-150">
+                            <div class="flex items-center">
+                                <i data-lucide="check-circle" class="w-5 h-5 mr-2 text-indigo-400 flex-shrink-0"></i>
+                                <span class="font-medium text-gray-900">Microsoft Copilot for Productivity</span>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-7 italic">Issued by Microsoft and LinkedIn</span>
+                        </li>
+                        <li class="flex flex-col items-start text-base hover:text-indigo-600 transition duration-150">
+                            <div class="flex items-center">
+                                <i data-lucide="check-circle" class="w-5 h-5 mr-2 text-indigo-400 flex-shrink-0"></i>
+                                <span class="font-medium text-gray-900">Discovering Entrepreneurship</span>
+                            </div>
+                            <span class="text-sm text-gray-500 ml-7 italic">Issued by Cisco Networking Academy (Course Badge)</span>
+                        </li>
+                    </ul>
+                </section>
+
+            
+            </div>
+        </main>
+    </div>
+
+    <footer class="mt-12">
+        <section class="profile-card accent-bg p-8 rounded-2xl text-white shadow-lg max-w-5xl mx-auto mb-8">
+            <h2 class="text-2xl font-bold mb-3">Connect with Me</h2>
+            <p class="mb-5 text-sm opacity-95 font-light">
+                I am actively seeking collaboration opportunities in tech and impact-driven projects.
+            </p>
+            <a href="mailto:amitrajaj0827@gmail.com" class="bg-white text-indigo-600 font-bold py-3 px-6 rounded-xl shadow-xl hover:bg-gray-100 transition duration-300 inline-flex items-center text-base transform hover:scale-[1.02]">
+                <i data-lucide="send" class="w-5 h-5 mr-2"></i> Let's Collaborate
+            </a>
+        </section>
+
+        <div class="py-6 text-center text-gray-500 text-sm border-t border-gray-200 max-w-5xl mx-auto">
+            <p>&copy; 2025 Amit Raj Profile. Sleekly built with HTML and Tailwind CSS.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

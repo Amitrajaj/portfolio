@@ -1,0 +1,59 @@
+/* Define a modern, sleek color and font */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb; /* Near-white background for crispness */
+        }
+        
+        /* Define the new accent color (Indigo/Violet) */
+        .accent-primary {
+            --color-primary: #6366f1; /* Tailwind Indigo 500 */
+        }
+        
+        /* General card styling with subtle depth */
+        .profile-card {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Stronger but softer shadow */
+            transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.5, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+            border: none; /* Removing border for cleaner look */
+        }
+        .profile-card:hover {
+            transform: translateY(-4px); /* Slightly more lift on hover */
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+        }
+        
+        /* Apply the new accent color */
+        .accent-color {
+            color: var(--color-primary);
+        }
+        .accent-border {
+            border-color: var(--color-primary);
+        }
+        .accent-bg {
+            background-color: var(--color-primary);
+        }
+        
+        /* Sleeker skill badge styling */
+        .skill-badge {
+            background-color: #eef2ff; /* Indigo 50 */
+            color: #4f46e5; /* Indigo 600 */
+            border: 1px solid #c7d2fe; /* Indigo 200 */
+            transition: all 0.2s ease;
+        }
+        .skill-badge:hover {
+            background-color: #6366f1; /* Indigo 500 */
+            color: white;
+            transform: translateY(-1px);
+        }
+        
+        /* Timeline dot color */
+        .timeline-dot {
+            background-color: var(--color-primary);
+        }
+        
+        /* Custom scrollbar for aesthetics (maintaining soft blue/purple) */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #a5b4fc; /* Indigo 300 */
+            border-radius: 10px;
+        }
